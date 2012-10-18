@@ -1,0 +1,109 @@
+.container{
+	width:3533px;
+	overflow: hidden;
+}
+
+section.slideshow {
+	width:3533px;
+	}
+
+section.slideshow ul.train{
+}
+
+section.slideshow ul.train > li{
+	position:absolute fixed;
+	z-index: 1;
+	}
+section.slideshow ul.train > li.biography{
+	left:202px;
+}		
+section.slideshow ul.train > li.jointhecommunity{
+	width:656px;
+	min-height:800px;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}	
+section.slideshow ul.train > li#max{
+	width:464px;
+	height:800px;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}
+section.slideshow ul.train > li#min{
+	width: 272px;
+	height: 800px;
+	border:dotted 1px;
+	color:black;
+	float:left;
+	
+}	
+section.slideshow menu{
+	position:absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 3;
+}
+
+section.slideshow menu li{
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+section.slideshow menu li:hover{
+	background-color: #CCE;
+	opacity: 1;
+}
+
+
+
+section.slideshow .train > li {
+	opacity:0;
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+.step1 section.slideshow .train > li.Biography {
+	left:0px;
+	opacity:1;
+}
+
+.step2 section.slideshow .train > li.jointhecommunity {
+	left:466
+	opacity:1;
+}
+
+.step3 section.slideshow .train > li.Administrativerecords {
+	left:1124px;
+	opacity:1;
+}
+
+.step4 section.slideshow .train > li.thesis {
+	left:1398px;
+	opacity:1;
+}
+
+.step5 section.slideshow .train > li.Articles {
+	left:1672;
+	opacity:1;
+}
+.step5 section.slideshow .train > li.presentation{
+	left:1946;
+	opacity:1;
+}
+.step5 section.slideshow .train > li.AcademicAwards{
+	left:2412;
+	opacity:1;
+}
+.step5 section.slideshow .train > li.Contact{
+	left:2878;
+	opacity:1;
+}

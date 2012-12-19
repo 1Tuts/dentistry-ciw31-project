@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+body {
+	background-color : #E6E6E6;
+}
+
+body{
+	margin: 0;
+}
+#train{
+	position: relative;
+	height: 900px;
+	width: 4500px;
+	-webkit-transition: all 1s;
+}	
+.Biography{
+	margin-left:235px;
+}
+.JointheCommunity{
+	width:450px;
+	min-height:900px;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}
+#max{
+	width:464px;
+	height:inherit;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}
+#maxpre{
+	width:500px;
+	height:inherit;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}
+#min{
+	width: 272px;
+	height: inherit;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}
+#minad{
+	width: 600px;
+	height: inherit;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}
+#minart{
+	width: 500px;
+	height: inherit;
+	border:dotted 1px;
+	color:black;
+	float:left;
+}
+.home{
+	width: 233px;
+	display: block;
+	min-height:900px;
+	position: fixed;
+	left: 0px;
+	margin-top:0px; 
+	border:dotted 1px;
+	background-color:rgb(0,18,0);
+	float: left;
+	color:white;
+	text-align: center;
+	z-index: 2;
+}
+.pic{
+	margin-top: 30px;
+}		
+.end{
+	margin-top: 355px;
+}
+div.home menu{
+	position:absolute;
+	font-family:Arial,Helvetica,sans-serif; 
+	font-size: 16px;
+	list-style-type: none; 
+	text-align:center;
+	top:210px;
+}
+div.home menu li:hover{
+	background-color:rgb(0,35,0); 
+	cursor: pointer;
+}
+#text{
+	margin:30px;
+	text-align: left;
+}
+#topic{
+	text-align: center;
+}
+
+/***********Contact us**************/
+.contact {
+	width: 330px;
+	margin-top: 100px;
+	margin-left: 40px;
+	border-radius:10px;
+	background-color:#002300;
+	box-shadow:0 0 20px #666;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 15px 15px;
+	float: left;
+}
+
+.contact h2 {
+	margin        :20px 0 15px;
+	color         :#fff;
+	font-size     :22px;
+	letter-spacing:2px;
+	font-weight   :bold;
+}
+
+.contact label {
+	font-size:12px;
+	color:#fff;
+}
+
+.contact .text {
+	border:1px solid #fff;
+	border-left:1px solid #b2b2b2;
+	border-top:1px solid #b2b2b2;
+	border-radius:3px;
+	background-color:#E7E7E7;
+	padding:8px;
+	padding-left: 28px;
+	margin:5px 0 14px;
+	width:280px;
+	display: block;
+	-webkit-transition:all 0.8s;
+}
+
+.contact .text:focus,
+.contact .text:hover {
+	background-color : #fafafa;
+}
+
+.contact .btn {
+	margin:5px 5px 10px 0;
+	padding:5px 20px;
+	color:#fff;
+	border:0 solid #fff;
+	border-radius:5px;
+	box-shadow:1px 1px 2px #999;
+	background-image:url('images/button-bg.png');
+}
+
+.contact .err {
+	background-color: #FCDFD2 !important;
+}
+
+.contact .ok{
+	background-color: #D5FCD2 !important;
+}
+
+.contact .btn:hover {
+	background-image:url('images/button-hover-bg.png');
+}
+
+.contact .mailicon {
+	background-image:url('images/email.png');
+	background-repeat:no-repeat;
+	background-position:-20px -7px;
+}
+
+.contact input.mailicon:focus {
+	background-image:url('images/email-active.png');
+	background-repeat:no-repeat;
+	background-position:-20px -7px;
+}
+
+.contact .nameicon {
+	background-image:url('images/name.png');
+	background-repeat:no-repeat;
+	background-position:-20px -7px;
+}
+
+.contact input.nameicon:focus {
+	background-image:url('images/name-active.png');
+	background-repeat:no-repeat;
+	background-position:-20px -7px;
+}
+
+
+.contact .texticon {
+	background-image:url('images/message.png');
+	background-repeat:no-repeat;
+	background-position:-20px -7px;
+}
+
+
+.contact .texticon:focus {
+	background-image:url('images/message-active.png');
+	background-repeat:no-repeat;
+	background-position:-20px -7px;
+}
+
+.contact textarea.texticon {
+	height : 120px;
+}
+
+#ifrm{
+	width: 315px;
+	height: 0;
+	border: 0 none;
+}
+
+.container{
+	background-color:white;
+	overflow: hidden;
+}

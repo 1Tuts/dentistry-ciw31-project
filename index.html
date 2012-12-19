@@ -4,105 +4,11 @@
 	<meta charset="UTF-8"/>
 	<title>Dr shahravan</title>
 	<link rel="stylesheet" type="text/css" href="1styles.css"/>
+	<link type="text/css" rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="html5shiv.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	<style type="text/css">
-		.container{
-			background-color:white;
-			overflow: hidden;
-		}
-		body{
-			margin: 0;
-		}
-		#train{
-			position: relative;
-			height: 900px;
-			width: 4000px;
-			-webkit-transition: all 1s;
-		}	
-		.Biography{
-			margin-left:235px;
-		}
-		.JointheCommunity{
-			width:450px;
-			min-height:900px;
-			border:dotted 1px;
-			color:black;
-			float:left;
-		}
-		#max{
-			width:464px;
-			height:inherit;
-			border:dotted 1px;
-			color:black;
-			float:left;
-		}
-		#maxpre{
-			width:500px;
-			height:inherit;
-			border:dotted 1px;
-			color:black;
-			float:left;
-		}
-		#min{
-			width: 272px;
-			height: inherit;
-			border:dotted 1px;
-			color:black;
-			float:left;
-		}
-		#minad{
-			width: 600px;
-			height: inherit;
-			border:dotted 1px;
-			color:black;
-			float:left;
-		}
-		#minart{
-			width: 500px;
-			height: inherit;
-			border:dotted 1px;
-			color:black;
-			float:left;
-		}
-		.home{
-			width: 233px;
-			display: block;
-			min-height:900px;
-			position: fixed;
-			left: 0px;
-			margin-top:0px; 
-			border:dotted 1px;
-			background-color:rgb(0,18,0);
-			float: left;
-			color:white;
-			text-align: center;
-			z-index: 2;
-		}
-		.pic{
-			margin-top: 30px;
-		}		
-		.end{
-			margin-top: 355px;
-		}
-		div.home menu{
-			position:absolute;
-			font-family:Arial,Helvetica,sans-serif; 
-			font-size: 16px;
-			list-style-type: none; 
-			text-align:center;
-			top:210px;
-		}
-		div.home menu li:hover{
-			background-color:rgb(0,35,0); 
-			cursor: pointer;
-		}
-		#text{
-			margin:30px;
-			text-align: left;
-		}
-		#topic{
-			text-align: center;
-		}
+
 	
 	</style>
 </head>
@@ -286,6 +192,22 @@
 					Email: arashahravan@gmail.com</br>
 				</p>
 			</div>
+			<section class="contact">
+				<h2>Contact Me ...</h2>
+				<form id="contact-form" action="sendmail.php" method="post" target='ifrm'>
+					<label>Name:</label>
+					<input class="text nameicon" type="text" name="name" id="name" placeholder="Name" />
+					<label>Email:</label>
+					<input class="text mailicon" type="text" name="mail" id="mail" placeholder="Email" />
+					<label>Subject:</label>
+					<input class="text texticon" type="text" name="subject" id="subject" placeholder="Subject" />
+					<label>Message:</label>
+					<textarea class="text texticon" name="txt" id="txt" placeholder="Text" ></textarea>
+					<input class="btn" type="submit" name="submit" value="Send" />
+					<input class="btn" type="reset" name="reset" id="reset" value="Reset" />
+				</form>
+			<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
+		</section>
 		</div>
 	</div>		
 </body>

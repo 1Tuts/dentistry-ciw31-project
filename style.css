@@ -118,10 +118,6 @@ div.home menu li:hover{
 	line-height: 600px;
 }
 #loaded {
-	opacity:  0 !important;
-}
-
-#loaded p {
 	display: none;
 }
 

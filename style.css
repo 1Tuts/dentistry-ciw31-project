@@ -98,6 +98,33 @@ div.home menu li:hover{
 	text-align: center;
 }
 
+/***********loading**************/
+
+#loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	z-index: 100;
+	opacity: 0.9;
+	color: #fff;
+	font-size: 40px;
+	-webkit-transition: all 800s;
+}
+#loading p {
+	text-align: center;
+	line-height: 600px;
+}
+#loaded {
+	opacity:  0 !important;
+}
+
+#loaded p {
+	display: none;
+}
+
 /***********Contact us**************/
 .contact {
 	width: 330px;

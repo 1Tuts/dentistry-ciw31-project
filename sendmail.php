@@ -5,7 +5,7 @@
 	<title>Sending mail ...</title>
 	<style type="text/css">
 		body {
-			background-color: #F4F4F4;
+			background-color: transparent;
 		}
 
 		.ok {
@@ -26,14 +26,14 @@
 		$name    = $_POST['name'];
 		$email   = $_POST['mail'];
 		$subject = $_POST['subject'];
-		$text    = "Mydomain.com Contact US :\r\n$_POST[txt]";
+		$text    = "shahravan.com Contact US :\r\n$_POST[txt]";
 
 		if( strlen($name)>=3 && strlen($email)>=7 && strlen($subject)>=5 && strlen($text)>=10 ){
 			if( @mail (
 					$admin,
-					"mydomain.com contact : $subject",
+					"shahravan.com contact : $subject",
 					$text,
-					"From:contact@thisdomain.com\r\nReply-To:$name <$email>" );
+					"From:info@shahravan.co\r\nReply-To:$name <$email>" )
 			){
 				echo '<h2 class="ok">Mail sent</h2>';
 			}else{
